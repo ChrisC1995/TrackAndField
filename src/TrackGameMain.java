@@ -9,7 +9,7 @@ public class TrackGameMain {
     }
 
     private static void menu() {
-        Boolean loopCondition = true;
+        Boolean loopCondition = true; //condition for while loop for the looping menu
         RunnerModel runnerModel = new RunnerModel(360, 480, 84, 36);
         Jump jump = new Jump(runnerModel);
         Run run = new Run(runnerModel);
